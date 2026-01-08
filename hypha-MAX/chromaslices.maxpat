@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 124.0, 132.0, 1530.0, 807.0 ],
+        "rect": [ 124.0, 132.0, 1294.0, 807.0 ],
         "boxes": [
             {
                 "box": {
@@ -3628,7 +3628,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "grad1": [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+                    "grad1": [ 0.0, 0.0, 0.0, 1.0 ],
                     "grad2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "id": "obj-159",
                     "maxclass": "panel",
@@ -3664,7 +3664,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-30",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -3886,7 +3886,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-8",
-                    "index": 0,
+                    "index": 6,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -3907,7 +3907,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-4",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -3929,7 +3929,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-134",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -4048,7 +4048,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-133",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -4102,7 +4102,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-112",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -4609,7 +4609,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-91",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -4642,7 +4642,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-56",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -5010,6 +5010,7 @@
                             {
                                 "box": {
                                     "id": "obj-3",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 2,
@@ -5228,7 +5229,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -5239,11 +5240,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "bang" ],
                     "patching_rect": [ 29.0, 42.0, 30.0, 30.0 ]
                 }
             }
@@ -5874,7 +5875,6 @@
                     "source": [ "obj-98", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
