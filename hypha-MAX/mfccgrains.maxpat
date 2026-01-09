@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 94.0, 143.0, 1264.0, 648.0 ],
+        "rect": [ 56.0, 100.0, 1264.0, 648.0 ],
         "boxes": [
             {
                 "box": {
@@ -30,7 +30,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 704.0, 136.0, 171.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "read data_mfccg_gridtree.json"
                 }
             },
@@ -53,7 +52,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 704.0, 464.0, 166.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "read data_mfccg_fulltree.json"
                 }
             },
@@ -76,7 +74,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 315.0, 159.0, 164.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "read data_mfccg_2dtree.json"
                 }
             },
@@ -97,7 +94,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 0.0, 1000.0, 780.0 ],
+                        "rect": [ 59.0, 119.0, 1000.0, 780.0 ],
                         "boxes": [
                             {
                                 "box": {
