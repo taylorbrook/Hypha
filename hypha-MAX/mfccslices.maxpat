@@ -51,8 +51,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 899.0, 330.0, 166.0, 22.0 ],
-                    "text": "read data_mfccg_fulltree.json"
+                    "patching_rect": [ 899.0, 330.0, 165.0, 22.0 ],
+                    "text": "read data_mfccs_fulltree.json"
                 }
             },
             {
@@ -741,7 +741,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 134.0, 172.0, 814.0, 599.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {

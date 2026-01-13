@@ -21862,7 +21862,7 @@
                     "maxclass": "newobj",
                     "numinlets": 4,
                     "numoutlets": 6,
-                    "outlettype": [ "", "", "", "", "", "bang" ],
+                    "outlettype": [ "", "", "", "", "", "" ],
                     "patching_rect": [ 991.5, 622.0, 287.0, 22.0 ],
                     "text": "chromaslices chromaslices corpus1.mono onsets 12"
                 }
@@ -22142,7 +22142,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 690.0, 684.399993109703, 122.0, 49.0 ],
-                    "text": "note 160981.333333 161322.666667 1. 1. 0.9 0.5"
+                    "text": "note 16277.333333 16725.333333 1. 1. 0.9 0.5"
                 }
             },
             {
@@ -24452,14 +24452,6 @@
         "parameters": {
             "obj-129::obj-7": [ "vst~", "vst~", 0 ],
             "obj-212": [ "live.menu[2]", "live.menu", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
