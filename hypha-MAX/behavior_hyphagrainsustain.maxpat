@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 306.0, 184.0, 476.0, 546.0 ],
+        "rect": [ 245.0, 120.0, 515.0, 614.0 ],
         "boxes": [
             {
                 "box": {
@@ -162,7 +162,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 217.0, 412.0, 32.0, 22.0 ],
+                    "patching_rect": [ 217.0, 431.0, 32.0, 22.0 ],
                     "text": "0.05"
                 }
             },
@@ -173,7 +173,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 256.0, 412.0, 39.0, 22.0 ],
+                    "patching_rect": [ 256.5, 426.0, 39.0, 22.0 ],
                     "text": "/ 100."
                 }
             },
@@ -496,14 +496,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-62", 3 ],
-                    "midpoints": [ 265.5, 507.0, 300.3, 507.0 ],
+                    "midpoints": [ 266.0, 507.0, 300.3, 507.0 ],
                     "source": [ "obj-70", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-70", 0 ],
-                    "midpoints": [ 265.5, 411.0, 265.5, 411.0 ],
+                    "midpoints": [ 265.5, 411.0, 266.0, 411.0 ],
                     "source": [ "obj-71", 0 ]
                 }
             },
