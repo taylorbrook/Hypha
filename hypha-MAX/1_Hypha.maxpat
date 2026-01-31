@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 57.0, 101.0, 1275.0, 747.0 ],
+        "rect": [ 57.0, 101.0, 1079.0, 653.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -130,15 +130,15 @@
             {
                 "box": {
                     "id": "obj-60",
-                    "linecount": 6,
+                    "linecount": 7,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1070.0, 341.0, 150.0, 87.0 ],
+                    "patching_rect": [ 1070.0, 341.0, 150.0, 100.0 ],
                     "presentation": 1,
                     "presentation_linecount": 6,
-                    "presentation_rect": [ 885.0, 25.0, 119.0, 87.0 ],
-                    "text": "Audio on - pedals on\n1. check hands\n2. check input\n2. cue 1 with pedal\n3. hack on - off - on\n4. start"
+                    "presentation_rect": [ 885.0, 25.0, 189.0, 87.0 ],
+                    "text": "Audio on - pedals on - 4 channels\n1. check hands\n2. check input\n2. cue 1 with pedal\n3. hack on - off - on\n4. start"
                 }
             },
             {
@@ -246,7 +246,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 476.0, 517.0, 50.0, 22.0 ],
-                                    "text": "2"
+                                    "text": "1"
                                 }
                             },
                             {
@@ -268,7 +268,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 648.0, 309.0, 50.0, 22.0 ],
-                                    "text": "13"
+                                    "text": "81"
                                 }
                             },
                             {
@@ -323,7 +323,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 192.5, 645.0, 50.0, 62.0 ],
-                                    "text": "0.480315 0.511811"
+                                    "text": "0.503937 0.811024"
                                 }
                             },
                             {
@@ -378,7 +378,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 366.5, 309.0, 50.0, 22.0 ],
-                                    "text": "54"
+                                    "text": "62"
                                 }
                             },
                             {
@@ -443,7 +443,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 62.25, 395.0, 50.0, 22.0 ],
-                                    "text": "61"
+                                    "text": "64"
                                 }
                             },
                             {
@@ -9865,7 +9865,7 @@
                     "patching_rect": [ 646.0, 3.899999976158142, 679.0, 33.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 46.0, 25.0, 724.0, 33.0 ],
-                    "text": "Hypha - Performance Patch - Taylor Brook 1.0.1 Jan 30, 2026",
+                    "text": "Hypha - Performance Patch - Taylor Brook 1.0.2 Jan 31, 2026",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "textjustification": 1
                 }
@@ -22392,13 +22392,13 @@
             {
                 "box": {
                     "id": "obj-140",
-                    "linecount": 3,
+                    "linecount": 4,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1565.0, 428.3999946117401, 102.0, 49.0 ],
-                    "text": "note 357000. 358000. 0. 1. 0.05 0.77"
+                    "patching_rect": [ 1565.0, 428.3999946117401, 102.0, 62.0 ],
+                    "text": "note 342000. 343000. 0.002558 1. 0.05 0.72"
                 }
             },
             {
@@ -22549,13 +22549,13 @@
             {
                 "box": {
                     "id": "obj-106",
-                    "linecount": 4,
+                    "linecount": 3,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1126.5, 687.9999987959861, 122.0, 62.0 ],
-                    "text": "note 316576. 316106.666667 0.610256 1. 0.95 0.376068"
+                    "patching_rect": [ 1126.5, 687.9999987959861, 122.0, 49.0 ],
+                    "text": "note 472640. 472640. 0.818803 1. 0.95 0.418803"
                 }
             },
             {
@@ -22698,13 +22698,13 @@
             {
                 "box": {
                     "id": "obj-94",
-                    "linecount": 3,
+                    "linecount": 4,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1126.5, 432.399993109703, 102.0, 49.0 ],
-                    "text": "note 359000. 360000. 0. 1. 0.05 0.71"
+                    "patching_rect": [ 1126.5, 432.399993109703, 102.0, 62.0 ],
+                    "text": "note 343000. 342000. 0.001024 1. 0.05 0.96"
                 }
             },
             {
@@ -22891,7 +22891,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 690.0, 684.399993109703, 122.0, 49.0 ],
-                    "text": "note 279690.666667 279157.333333 1. 1. 0.95 0.5"
+                    "text": "note 46645.333333 47082.666667 1. 1. 0.95 0.5"
                 }
             },
             {
@@ -23046,13 +23046,13 @@
             {
                 "box": {
                     "id": "obj-10",
-                    "linecount": 3,
+                    "linecount": 4,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 690.0, 432.399993109703, 102.0, 49.0 ],
-                    "text": "note 359000. 359500. 0. 1. 0.05 0.83"
+                    "patching_rect": [ 690.0, 432.399993109703, 102.0, 62.0 ],
+                    "text": "note 285500. 285000. 0.002558 1. 0.05 0.81"
                 }
             },
             {
