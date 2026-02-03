@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 57.0, 101.0, 1079.0, 653.0 ],
+        "rect": [ 92.0, 95.0, 1079.0, 653.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -203,7 +203,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 79.0, 182.0, 1000.0, 780.0 ],
+                        "rect": [ 79.0, 182.0, 1126.0, 799.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -246,7 +247,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 476.0, 517.0, 50.0, 22.0 ],
-                                    "text": "2"
+                                    "text": "1"
                                 }
                             },
                             {
@@ -268,7 +269,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 648.0, 309.0, 50.0, 22.0 ],
-                                    "text": "9"
+                                    "text": "61"
                                 }
                             },
                             {
@@ -323,7 +324,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 192.5, 645.0, 50.0, 62.0 ],
-                                    "text": "0.535433 0.653543"
+                                    "text": "0.488189 0.566929"
                                 }
                             },
                             {
@@ -378,7 +379,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 366.5, 309.0, 50.0, 22.0 ],
-                                    "text": "58"
+                                    "text": "63"
                                 }
                             },
                             {
@@ -443,7 +444,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 62.25, 395.0, 50.0, 22.0 ],
-                                    "text": "68"
+                                    "text": "62"
                                 }
                             },
                             {
@@ -497,7 +498,7 @@
                                     "fontname": "Arial",
                                     "fontsize": 13.0,
                                     "id": "obj-47",
-                                    "items": [ "IAC Driver Bus 1", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "USB MIDI Device Port 3", ",", "USB MIDI Device Port 4", ",", "to Max 1", ",", "to Max 2" ],
+                                    "items": [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
                                     "labelclick": 1,
                                     "maxclass": "umenu",
                                     "numinlets": 1,
@@ -15238,7 +15239,7 @@
                                                                     "outlettype": [ "list", "float", "float", "float", "float", "list", "int" ],
                                                                     "parameter_enable": 0,
                                                                     "patching_rect": [ 296.25, 305.0, 360.0, 155.0 ],
-                                                                    "setfilter": [ 0, 2, 1, 0, 0, 200.0, 1.0, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+                                                                    "setfilter": [ 0, 2, 1, 0, 0, 100.0, 1.0, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
                                                                 }
                                                             },
                                                             {
@@ -15605,7 +15606,7 @@
                                                                     "outlettype": [ "list", "float", "float", "float", "float", "list", "int" ],
                                                                     "parameter_enable": 0,
                                                                     "patching_rect": [ 296.25, 305.0, 360.0, 155.0 ],
-                                                                    "setfilter": [ 0, 1, 1, 0, 0, 14000.0, 0.9185112118721008, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+                                                                    "setfilter": [ 0, 1, 1, 0, 0, 12000.0, 0.9185112118721008, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
                                                                 }
                                                             },
                                                             {
@@ -16558,7 +16559,7 @@
                                                                     "outlettype": [ "list", "float", "float", "float", "float", "list", "int" ],
                                                                     "parameter_enable": 0,
                                                                     "patching_rect": [ 296.25, 305.0, 360.0, 155.0 ],
-                                                                    "setfilter": [ 0, 2, 1, 0, 0, 200.0, 1.0, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+                                                                    "setfilter": [ 0, 2, 1, 0, 0, 100.0, 1.0, 0.8999999761581421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
                                                                 }
                                                             },
                                                             {
@@ -24802,14 +24803,6 @@
         ],
         "parameters": {
             "obj-212": [ "live.menu[2]", "live.menu", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
